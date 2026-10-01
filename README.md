@@ -333,15 +333,6 @@ You: Delete all payments older than 2025
 - Single-turn questions; no memory across runs.
 - Built and tested on synthetic data with one PostgreSQL setup.
 
----
-
-## 🙏 Credits
-
-This project is built on [AI_Data_Agent](https://github.com/anshlambagit/AI_Data_Agent) by Ansh Lamba (see his [YouTube tutorial](https://youtu.be/7yOmi4IX-Rs)). The router, SQL, and ETL agent structure comes from that project.
-
-**Extensions in this repo:** the three-layer SQL safety design (read-only role, deterministic guard, test scripts), configurable model tiers, state-schema and message-duplication fixes, and removal of hardcoded credentials in favor of `.env`.
-
----
 
 <div align="center">
 
